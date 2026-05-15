@@ -34,8 +34,8 @@ const PROJECTS = [
     title: "Digital SafeTea",
     category: "Digital Rights",
     description: "Interactive fiction game championing online safety for African women.",
-    href: "/programmes",
-    image: "https://pollicy.org/wp-content/uploads/2021/09/collage-b-08.png",
+    href: "/projects/digital-safetea",
+    image: "https://pollicy.org/wp-content/uploads/2021/09/Project-thumbnails-14.jpg",
     accent: "bg-purple-600",
   },
   {
@@ -44,8 +44,8 @@ const PROJECTS = [
     title: "VOTE: Women",
     category: "Women in Politics",
     description: "A leadership springboard for women political aspirants across Tanzania, Uganda, and Senegal.",
-    href: "/programmes",
-    image: "https://pollicy.org/wp-content/uploads/2021/09/collage-02-1536x1137.png",
+    href: "/projects/vote-women",
+    image: "https://pollicy.org/wp-content/uploads/2021/08/eye-for-ebony-402231-1200x900-1.jpg",
     accent: "bg-rose-600",
   },
   {
@@ -89,7 +89,7 @@ export default function FeaturedProjectsSection() {
               Work that moves<br /><span className="text-brand-orange">Africa forward.</span>
             </h2>
           </div>
-          <Link href="/programmes" className="inline-flex items-center gap-2 text-brand-orange font-bold hover:gap-4 transition-all duration-300 group shrink-0">
+          <Link href="/projects" className="inline-flex items-center gap-2 text-brand-orange font-bold hover:gap-4 transition-all duration-300 group shrink-0">
             View All Projects <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-300" />
           </Link>
         </div>
