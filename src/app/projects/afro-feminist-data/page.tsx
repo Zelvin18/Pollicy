@@ -12,7 +12,7 @@ export default function AfroFeministDataPage() {
           <div className="absolute inset-0 bg-[#0a0805]/72" />
         </div>
         <div className="container-custom relative z-10 pt-4">
-          <Link href="/projects" className="inline-flex items-center gap-2 text-white/60 hover:text-brand-orange text-sm transition-colors duration-300 mb-5 block">
+          <Link href="/projects" className="flex items-center gap-2 text-white/60 hover:text-brand-orange text-sm transition-colors duration-300 mb-4 w-fit">
             ← Back to Projects
           </Link>
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/15 border border-white/30 rounded-full mb-5">

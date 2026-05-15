@@ -99,7 +99,7 @@ export const featuredProjects = [
     ],
     tags: ["#DigitalSafety", "#InteractiveFiction", "#WomenOnline"],
     href: "/projects/digital-safetea",
-    image: "/images/digital-safetea.jpg",
+    image: "https://pollicy.org/wp-content/uploads/2021/09/Project-thumbnails-14.jpg",
     color: "bg-amber-600",
   },
   {
@@ -116,7 +116,7 @@ export const featuredProjects = [
     ],
     tags: ["#WomenLeadership", "#Politics", "#Democracy"],
     href: "/projects/vote-women",
-    image: "/images/vote-women.jpg",
+    image: "https://pollicy.org/wp-content/uploads/2021/08/eye-for-ebony-402231-1200x900-1.jpg",
     color: "bg-rose-600",
   },
   {
@@ -133,7 +133,7 @@ export const featuredProjects = [
     ],
     tags: ["#Misinformation", "#MediaLiteracy", "#Mozilla"],
     href: "/projects/choose-fake-news",
-    image: "/images/fake-news.jpg",
+    image: "https://pollicy.org/wp-content/uploads/2021/09/collage-07-1323x1536.png",
     color: "bg-purple-600",
   },
   {
@@ -150,7 +150,7 @@ export const featuredProjects = [
     ],
     tags: ["#Language", "#DigitalInclusion", "#NonDominantLanguages"],
     href: "/projects/are-we-together",
-    image: "/images/are-we-together.jpg",
+    image: "https://pollicy.org/wp-content/uploads/2023/01/Are-we-together-01-1536x1536.jpg",
     color: "bg-teal-600",
   },
 ];

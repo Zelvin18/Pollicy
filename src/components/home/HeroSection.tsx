@@ -123,7 +123,7 @@ export default function HeroSection() {
         <div className={`flex flex-col sm:flex-row gap-4 mb-16 transition-all duration-700 delay-300 ${
           isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
         }`}>
-          <Link href="/programmes"
+          <Link href="/projects"
             className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-brand-orange text-white font-bold rounded-full hover:bg-brand-orange-dark transition-all duration-300 hover:shadow-glow hover:scale-105 text-base">
             Explore Our Work <ArrowRight size={20} />
           </Link>
