@@ -43,11 +43,25 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-3 mb-6 group">
-              <div className="w-10 h-10 bg-brand-orange rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                <span className="text-white font-display font-black text-sm">P</span>
-              </div>
-              <span className="font-display font-black text-2xl text-white">POLLICY</span>
+            {/* Official Pollicy Logo — white version for dark background */}
+            <Link href="/" className="inline-block mb-6 hover:opacity-90 transition-opacity duration-200">
+              <svg width="140" height="46" viewBox="0 0 148 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Pollicy">
+                {/* Orange circle */}
+                <circle cx="122" cy="24" r="24" fill="#E8751A" />
+                {/* Shadow layer */}
+                <text x="3" y="36"
+                  fontFamily="'Arial Black','Arial Bold',Arial,sans-serif"
+                  fontWeight="900" fontSize="32" letterSpacing="1.5" fill="#333333">
+                  POLLICY
+                </text>
+                {/* Main text — white with dark stroke */}
+                <text x="1" y="34"
+                  fontFamily="'Arial Black','Arial Bold',Arial,sans-serif"
+                  fontWeight="900" fontSize="32" letterSpacing="1.5"
+                  fill="white" stroke="#333333" strokeWidth="1.8" paintOrder="stroke fill">
+                  POLLICY
+                </text>
+              </svg>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed mb-6">
               A Pan-African feminist organisation working at the intersection of data, technology, and design to advance inclusive and equitable digital ecosystems.
