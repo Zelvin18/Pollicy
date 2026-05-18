@@ -7,27 +7,18 @@ import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { navLinks } from "@/lib/data";
 
-/** Official Pollicy logo — inline SVG matching the real brand mark */
+/** Official Pollicy logo — uses the real logo image */
 function PollicyLogo() {
   return (
     <Link href="/" aria-label="Pollicy homepage" className="shrink-0 hover:opacity-90 transition-opacity duration-200">
-      <svg width="148" height="48" viewBox="0 0 148 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        {/* Large orange circle overlapping the right side of the text */}
-        <circle cx="122" cy="24" r="24" fill="#E8751A" />
-        {/* Shadow text layer — dark, offset 2px */}
-        <text x="3" y="36"
-          fontFamily="'Arial Black','Arial Bold',Arial,sans-serif"
-          fontWeight="900" fontSize="32" letterSpacing="1.5" fill="#111111">
-          POLLICY
-        </text>
-        {/* Main text layer — white fill with dark stroke = outlined look */}
-        <text x="1" y="34"
-          fontFamily="'Arial Black','Arial Bold',Arial,sans-serif"
-          fontWeight="900" fontSize="32" letterSpacing="1.5"
-          fill="white" stroke="#111111" strokeWidth="1.8" paintOrder="stroke fill">
-          POLLICY
-        </text>
-      </svg>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/pollicy-logo.png"
+        alt="Pollicy"
+        width={140}
+        height={48}
+        style={{ height: "48px", width: "auto", objectFit: "contain" }}
+      />
     </Link>
   );
 }
